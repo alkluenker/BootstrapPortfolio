@@ -1,0 +1,37 @@
+
+
+
+
+
+#box {
+    background-color: white;
+}
+
+#heading {
+    background-color: white;
+}
+
+
+#name {
+    text-align: center;
+}
+
+#navbar {
+    align-content: center;
+    padding-left: 0px;
+}
+
+br {
+    height: 29px;
+}
+
+p {
+    flex-wrap: wrap;
+    column-span: all;
+    color: yellow;
+}
+
+#third {
+    column-span: all;
+    width: 100%;
+}
