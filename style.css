@@ -3,17 +3,20 @@
 
 
 
-#box {
+#box, #box1, #box2 {
     background-color: white;
 }
 
 #heading {
     background-color: white;
+    width: 80%;
 }
 
 
 #name {
     text-align: center;
+    background-color: teal;
+    color: white;
 }
 
 #navbar {
@@ -28,10 +31,100 @@ br {
 p {
     flex-wrap: wrap;
     column-span: all;
-    color: yellow;
+    
 }
 
 #third {
     column-span: all;
     width: 100%;
 }
+
+
+#boxtitle {
+    font-size: 40px;
+    
+  }
+
+  #maincontent, #maincontent1, #maincontent2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zPRL_vfw27fx9prXP-CbifFBc7Dt4r39ALF-CnfqtoF3gFrhgA&s");
+    margin-top: 0;
+    margin-bottom: 0;
+    
+  }
+
+  #top, #top1, #top2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zPRL_vfw27fx9prXP-CbifFBc7Dt4r39ALF-CnfqtoF3gFrhgA&s");
+    height: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #bottom, #bottom1, #bottom2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zPRL_vfw27fx9prXP-CbifFBc7Dt4r39ALF-CnfqtoF3gFrhgA&s");
+    height: 40px;
+    margin-top: 0;
+    border-top: none;
+    margin-bottom: 0;
+  }
+
+  footer {
+    height: 10px;
+    background-color: teal;
+    margin-top: 0;
+  }
+
+  #box, #box1, #box2 {
+    margin-top: 0;
+    padding-right: 0;
+    width: 80%;
+    margin-bottom: 0;
+  }
+
+  
+
+ #mypicture {
+   width: 80%;
+ }
+
+ #lastbox {
+   margin-bottom: 0;
+  
+   
+ }
+
+ #box1 {
+   padding-right: 20px;
+ }
+
+ #box2 {
+   width: 65%;
+ }
+
+ 
+
+
+ h4 {
+     object-fit: cover;
+     background-color: teal;
+     width: 100%;
+     margin-top: 120px;
+     
+ }
+
+ #both {
+   position: relative;
+   margin-top: 20px;
+   
+   
+ }
+
+
+ 
+ #gamename {
+   color: red;
+   position: absolute;
+   margin-top: -80px;
+   background-color: teal;
+   
+   font-size: 40px;
+   
