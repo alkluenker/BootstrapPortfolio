@@ -6,89 +6,73 @@
     <title>Basic Portfolio
     </title>
     
-    <link rel="stylesheet" type="text/css" link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 </head>
 
 <body>
 
-  <div class="container" id="heading">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-    <div class="row">
-
-      <div class="col-sm-6" id="name">
-
-        <h1>
-            Angela Kluenker
-        </h1>
-
-      </div>
-
-      <div class="col-sm-5" id="navbar">
-
-        <ul class="nav justify-content-center">
+    <div class="container">
+      <a class="navbar-brand px-3" href="index.html" id="name">Angela Kluenker</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="#navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="#navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">About</a>
+            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active" href="contact.html">Contact
+            </a>
           </li>
           
         </ul>
+      </div>
+    </div>
+  </nav> 
 
+
+  <main class="container">
+
+    <section class="row">
+
+      <div class="col-md-6 py-3" id="information">
+
+        <h1 class=>
+          Contact Information
+        </h1>
+
+        <hr>
+
+        <h3 class=>
+          Name: Angela Kluenker
+        </h3>
+
+        <h3>
+          Email: alkluenker@hotmail.com
+        </h3>
+
+        <h3>
+          Phone: (920) 860-7863
+        </h3>
 
       </div>
 
-
-    </div>
-
-    
-
-  </div>
-
-  <hr id="top1">
-
-  <div id="maincontent1">
-
-        <div class="container" id="box1">
-    
-          <form>
-              <div class="form-group">
-              <label for="formGroupExampleInput">Name</label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
-              </div>
-    
-              <div class="form-group">
-              <label for="formGroupExampleInput2">Email</label>
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
-              </div>
-    
-              <div class="form-group" id="lastbox">
-                  <label for="exampleFormControlTextarea1">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              </form>
-          </form>
-    
-        </div>
-
-  </div>
+    </section>
 
 
-
- 
-
-  <hr id="bottom1">
-
-  <footer>
-
-  </footer>
+  </main>
 
 
-
+  
 </body>

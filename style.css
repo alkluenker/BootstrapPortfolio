@@ -1,34 +1,66 @@
-
-
-
-
-
-#box, #box1, #box2 {
-    background-color: white;
+body {
+  background-color: aquamarine;
 }
 
-#heading {
-    background-color: white;
-    width: 80%;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
+main {
+  margin: 80px 0;
+ 
+}
+
+.box {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
 
 #name {
-    text-align: center;
-    background-color: teal;
-    color: white;
+  background-color: teal;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
 }
 
-#navbar {
-    align-content: center;
-    padding-left: 0px;
+.navbar {
+  border: none;
 }
 
-br {
-    height: 29px;
+.boxheader {
+  color: teal;
 }
 
-p {
+#mypicture {
+  float: left;
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+
+.portfoliopictures {
+  margin: 15px auto;
+  height: 200px;
+  width: 400px;
+  
+}
+
+.portfoliocaptions {
+  color: crimson;
+  font-size: 20px;
+}
+
+.contactinformation {
+  color: teal;
+}
+
+#information {
+  background-color: white;
+  text-align: center;
+}
+
+/*p {
     flex-wrap: wrap;
     column-span: all;
     
@@ -83,7 +115,7 @@ p {
   
 
  #mypicture {
-   width: 80%;
+   float: left;
  }
 
  #lastbox {
@@ -127,4 +159,4 @@ p {
    background-color: teal;
    
    font-size: 40px;
-   
+   */
