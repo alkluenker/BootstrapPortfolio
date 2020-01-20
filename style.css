@@ -1,5 +1,5 @@
 body {
-  background-color: aquamarine;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zPRL_vfw27fx9prXP-CbifFBc7Dt4r39ALF-CnfqtoF3gFrhgA&s");
 }
 
 html {
@@ -13,7 +13,7 @@ main {
 }
 
 .box {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   padding: 30px;
   margin-bottom: 30px;
 }
@@ -50,6 +50,19 @@ main {
 .portfoliocaptions {
   color: crimson;
   font-size: 20px;
+}
+
+.footer {
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+
+  /* Box-model */
+  width: 100%;
+  height: 60px;
+
+  /* Visual */
+  background-color: #666;
 }
 
 
